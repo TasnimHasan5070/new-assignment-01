@@ -78,7 +78,7 @@
     
 }
 tr  td {
-    border: 1px black solid;
+    border: 1px rgb(174, 174, 174) solid;
     padding-left: 15px;
     padding-right: 30px;
     padding-top: 15px;
@@ -139,14 +139,24 @@ margin-right: 250px;
 margin-top: 30px;
 }
 .enter{
-    background-color: white;
+background-color: white;
 color: grey;
 border: none 1px solid;
-padding: 15px 350px 15px 350px;
-
-margin-top: 30px;
+padding: 15px 280px 15px 50px;
+margin-left: 80px;
+border-top-left-radius: 16px;
+border-bottom-left-radius: 16px;
 }
 .email{
-    display: flex;
-    margin-left: 350px;
+    display: flex; 
+    margin-left: 250px;
+    margin-top: 30px;
+}
+ .buttons{
+    color:white;
+    background-color: #077141;
+    border: #077141 solid 1px;
+    padding: 10px 25px 15px 25px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
